@@ -1,0 +1,19 @@
+/* updated March 11, 2022
+*/
+
+html {
+  font-size: 95%;
+  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+body {
+  max-width: 38em;
+}
+
+pre {
+  font-family: monospace, "\534E \6587 \6977 \4F53 ", "KaiTi";
+}
+
+blockquote {
+  font-family: Georgia, "Nimbus Roman No9 L", "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung"
+}
