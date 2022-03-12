@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base href="https://aaron-zhang.com/" target="_blank">
+<link href="style.css" rel="stylesheet" />
+
+<title>完全使用Linux工作</title>
+</head>
+
+<body>
+
+<p><a href="index.html">Home</a>
+ | <a href="articles.html">Articles</a>
+ | <a href="about.html">About Me</a>
+</p>
+
+<hr>
+<meta charset="utf-8">
+
+<h2>完全使用Linux工作</h2>
+
+初稿：2020-03-17
+
+庚子年春，病毒肆虐。开始居家办公非常突然，以至于办公笔记本都没有带回。家里闲置有一台2011年的iMac，硬件过时macOS不能升级。安装好Manjaro Linux并加载常用软件后，竟完美满足办公需求，速度极快，体验完好。于是录下所得，分享给有需人士，鼓励大家尝试并掌握更先进（至少是不同）的工具。
+
+<h3>硬件与系统</h3>
+iMac 12,1. 四核Core i5-2400S 2.5GHz，12GB内存，500GB SSD和500GB HDD双硬盘，AMD Radeon HD 6750M显卡（512MB显存）。
+
+系统为Manjaro，GNOME 3.34。
+
+<h3>邮件</h3>
+工作邮件服务器是Office 365。我使用的客户端是Evolution与evolution-ews插件。日常用到的邮件、联系人、任务清单与笔记都可以完美同步。内置的自由格式表达式搜索（Free Form Expression）效率比Outlook更高。例如以下命令搜索发信人含Gloria，主题含order，正文满足正则表达式的邮件：
+<pre>
+''f:Gloria b-r:purchase.ate s:order''
+</pre>
+
+唯一造成困扰的是日历表，因为如果调整了重复发生的会议中的某一个，参会人会重新收到所有历史会议的邀请。
+
+在终端中我用的是Mutt和mutt-office365配置文件，主要用于自动发送某些邮件。
+
+<h3>Office</h3>
+WPS Office。速度一流，常用函数和MS Office一致，评论、修改追踪、高亮语法也可以通用。内置的阅读模式和护眼模式还是Office没有的。 云协作
+
+工作中使用的是Dropbox Business。我使用的是Dropbox Maestral客户端，可以多个账户登录，选择性同步，使用配置文件，目前没有出过问题。
+
+电话、网络会议使用的是Microsoft Teams，官方没有Arch版本，但是AUR是有的，功能正常。
+
+<h3>中文输入</h3>
+一致很嫌弃各种中文输入法的功能和稳定性，尤其是依赖fcitx的诸如Sogou。直到发现台湾同胞的RIME输入法，在iBus上非常稳定而且定制性强，完美解决了繁简中文输入需求。
+
+<h3>PDF</h3>
+一般浏览文件用GNOME内置的文档浏览器就足够了。需要添加评论等复杂功能时，MasterPDF Editor免费版稳定且好用，如果需要编辑文档内容本身，就需要购买付费版了。
+
+CUPS内置有PDF打印机可以把任意文档打印成PDF文件，操作简单
+
+<h3>CAD</h3>
+使用FreeCAD浏览STEP文件。FreeCAD在Linux上启动速度比Windows上快不少。偶尔需要画图会使用网页版的OnShape。
+</body>
