@@ -17,3 +17,7 @@ pre {
 blockquote {
   font-family: Georgia, "Nimbus Roman No9 L", "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung"
 }
+
+img {
+  width: 100%;
+}
