@@ -64,12 +64,12 @@ exiftool &quot;-Directory&lt;DateTimeOriginal&quot; -d &quot;%Y/%m&quot; /run/me
 <h3>Raw转换</h3>
 <p>用RawTherapee打开RAW文件，选用合适的曲线即可。RawTherapee内置的标准曲线还原度非常高。
 
-<img src="static/screenshot_20211026.png"/>
+<img src="articles/static/screenshot_20211026.png"/>
 
 <h3>胶片色彩</h3>
 <p>用RawTherapee的胶片仿真模块，载入胶片的HaldCLUT文件。各种胶片的文件可以在网上下载，也可以从LUT或者Cube文件转换为HaldCLUT。下面的前后对比是用的Pat David的柯达Portra 160文件。
 
-<img src="static/screenshot_20211026_2.png"/>
+<img src="articles/static/screenshot_20211026_2.png"/>
 
 <h3>胶片颗粒</h3>
 <p>人像或者街拍添加胶片颗粒可以增强照片的质感。不得不说所谓的质感其实是胶片的噪声。之前用Lightroom可以一键载入胶片颗粒。但是RawTherapee目前为止没有这个功能。研究下来，最简单的办法是如下：
@@ -85,10 +85,10 @@ convert $1 ../film/Kodak_Portra_grain_5D.jpg -compose mathematics \\
 </pre>
 
 <p>下面是一张加了颗粒的照片。
-<img src="static/img_6089-grain.jpg"/>
+<img src="articles/static/img_6089-grain.jpg"/>
 
 <p>100%局部颗粒细节
-<img src="static/img_6089-grain_zoom.png"/>
+<img src="articles/static/img_6089-grain_zoom.png"/>
 
 <h3>备份</h3>
 <p>同样，依赖备份软件也是不靠谱的事情。最简单的无外乎在另外一台电脑做一个文件夹镜像备份。
