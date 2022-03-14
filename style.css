@@ -3,7 +3,8 @@
 
 html {
   font-size: 95%;
-  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  /*font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
+  font-family: monospace, Menlo, Monaco, "Courier New", "DejaVu Sans Mono";
 }
 
 body {
