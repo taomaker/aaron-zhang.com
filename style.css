@@ -9,6 +9,7 @@ html {
 body {
   /*max-width: 38em;*/
   max-width: 80ch;
+  margin: auto;
 }
 
 pre {
@@ -20,7 +21,7 @@ blockquote {
 }
 
 img {
-  max-width: 38em;
+  max-width: 80ch;
 }
 
 hr {{height:1px; border:none; color:#000; background-color:#000;}
