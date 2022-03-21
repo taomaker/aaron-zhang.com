@@ -10,6 +10,7 @@ body {
   /*max-width: 38em;*/
   max-width: 80ch;
   margin: auto;
+  padding: 0 1rem;
 }
 
 pre {
