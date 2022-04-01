@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<base href="https://taomaker.github.io/aaron-zhang.com/">
+<link href="style.css" rel="stylesheet" />
+
+<title>About this website - back to HTML</title>
+</head>
+
+<body>
+
+<p><a href="index.html">Home</a>
+ | <a href="articles/articles.html">Articles</a>
+ | <a href="about.html">About Me</a>
+</p>
+
+<hr>
+<h2>About this website - back to HTML</h2>
+
+<pre>Created 2022-04-01</pre>
+
+<p>I started my own website in 2005, using my own computer in my college dorm. All pages were created using text editor and HTML markups. In 2012 I started using WordPress on Dreamhost. Not needing a lot of its features, I experimented with Jekyll, Hugo, and eventually landed with Dokuwiki. However, with all these tools I came into a same issue: I'm distracted by the tool I'm using and not focused on the important stuff - writing itself.
+
+<p>Late 2021, I scoped back and looked all these "Z-turns". One reason to use WP, the Static Website Generators, and Dokuwiki, is to not to create a website in HTML, and have the tool to generate from their own syntax which is more human readable. The problem is, my readers are not going to read the source code, so what I use does not matter to them; but as to myself, I have to constantly worry about if the syntax I'm using is compatible with other tools for now, and will still be compatible in the future. I also don't think these "human-readable" formats are more readable to me than plain semantic HTML. So, why does don't come back to write the web pages using HTML?
+
+<p>I started using text editor (vim) to write the body of the article using sematic HTML, then <code>cat</code> command to combine header, content and footer into a complete HTML file, then misc commands to loop through all articles, maintain tree structure, and deploy to github. These commands are eventually wrapped in two bash files: a less than 20 line <code>build.sh</code> to build the site, and a 5 line <code>deploy.sh</code> to commit to my Github page.
+
+<p> As it turns out I'm not back to full circle to manually typing my articles in HTML, execute one bash command to build the site, and another one to deploy it. 
+</body>
+<hr>
+Copyright &copy Aaron Zhang 2022
