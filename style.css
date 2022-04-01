@@ -1,28 +1,7 @@
-/* updated March 11, 2022
-*/
-
-html {
-  font-size: 90%;
-  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/
-}
-
-body {
-  /*max-width: 38em;*/
-  max-width: 80ch;
-  margin: auto;
-  padding: 0 1rem;
-}
-
-pre {
-  font-family: monospace, "\534E \6587 \6977 \4F53 ", "KaiTi";
-}
-
-blockquote {
-  font-family: Georgia, "Nimbus Roman No9 L", "Songti SC", "Noto Serif CJK SC", "Source Han Serif SC", "Source Han Serif CN", STSong, "AR PL New Sung"
-}
-
-img {
-  max-width: 80ch;
-}
-
-hr {{height:1px; border:none; color:#000; background-color:#000;}
+/* updated April 1, 2022 */
+html { font-size: 90%; font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;*/ }
+body { max-width: 80ch; margin: auto; padding: 0 1rem; }
+pre { font-family: monospace, "\534E \6587 \6977 \4F53 ", "KaiTi"; }
+blockquote { font-family: Georgia, "Songti SC", "Noto Serif CJK SC", STSong, "AR PL New Sung" }
+img { max-width: 80ch; }
+hr {height:1px; border:none; color:#000; background-color:#000;}
