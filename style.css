@@ -1,5 +1,5 @@
 /* updated April 1, 2022 */
-html { font-size: 80%; font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", monospace;*/ }
+html { font-size: 100%; font-family: Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", monospace;*/ }
 body { max-width: 80ch; margin: auto; padding: 0 1rem; }
 blockquote { font-family: Georgia, "Songti SC", "Noto Serif CJK SC", STSong, "AR PL New Sung" }
 img { max-width: 80ch; }
