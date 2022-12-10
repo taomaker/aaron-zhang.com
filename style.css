@@ -2,7 +2,7 @@
 html { font-size: 100%; font-family: Menlo, "Ubuntu Mono", "Source Code Pro", "Droid Sans Mono", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", monospace; line-height:1.2 }
 body { max-width: 80ch; margin: auto; padding: 0 1rem; }
 blockquote { font-family: Georgia, "Songti SC", "Noto Serif CJK SC", STSong, "AR PL New Sung" }
-pre { font-family: "AR PL New Kai", STKaiti, BiauKai, KaiTi, monospace; font-size: 1.5em; text-align: center;}
+pre { font-family: "AR PL New Kai", STKaiti, BiauKai, KaiTi, monospace; font-size: 1em; text-align: center;}
 img { max-width: 80ch; }
 hr {height:1px; border:none; color:#000; background-color:#000;}
 html {
